@@ -6,8 +6,8 @@ using SportsStore.Models.ViewModels;
 namespace SportsStore.Controllers
 {
     public class ProductController : Controller
-    {
-        private IProductRepository repository;
+	{
+		private IProductRepository repository;
         public int PageSize = 4;
 
         public ProductController(IProductRepository repo)
